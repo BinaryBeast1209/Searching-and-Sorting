@@ -45,7 +45,9 @@ Searching-and-Sorting/
 │   └── acp_sort_with_bubble.py
 ├── Lesson_05_Selection_Sort/
 │   ├── 01_selection_sort_working.py
-│   └── selection_sort_working.py
+│   ├── selection_sort_working.py
+│   ├── 02_largest_number.py
+│   └── largest_number.py
 └── README.md
 ```
 
@@ -96,6 +98,7 @@ Searching-and-Sorting/
 | File / Link | Activity Title | Description | Time Complexity | Space Complexity |
 | :--- | :--- | :--- | :--- | :--- |
 | `01_selection_sort_working.py` / `selection_sort_working.py` | **Activity 1: SelectionSortWorking** | In-depth trace of minimum finding in unsorted partition and $O(n)$ swaps. | $O(n^2)$ | $O(1)$ |
+| `02_largest_number.py` / `largest_number.py` | **Activity 2: LargestNumber** | Finds largest element and forms largest concatenated number via custom comparator. | $O(n^2)$ | $O(n)$ |
 
 ---
 
@@ -134,4 +137,5 @@ python Lesson_04_Bubble_Sort/sort_with_bubble.py
 ### Lesson 5: Selection Sort
 ```bash
 python Lesson_05_Selection_Sort/01_selection_sort_working.py
+python Lesson_05_Selection_Sort/02_largest_number.py
 ```
