@@ -36,6 +36,9 @@ Searching-and-Sorting/
 │   ├── closest_pair_sum.py
 │   ├── is_there_a_pair_with_nearest_sum.py
 │   └── acp_is_there_a_pair_with_nearest_sum.py
+├── Lesson_04_Bubble_Sort/
+│   ├── 01_bubble_sort_working.py
+│   └── bubble_sort_working.py
 └── README.md
 ```
 
@@ -73,6 +76,12 @@ Searching-and-Sorting/
 | `03_closest_pair_sum.py` / `closest_pair_sum.py` | **Activity 3: ClosestPairSum** | Finds the pair $(a, b)$ whose sum is mathematically closest to the target. | $O(n \log n)$ | $O(1)$ |
 | `is_there_a_pair_with_nearest_sum.py` / `acp_is_there_a_pair_with_nearest_sum.py` | **ACP: IsThereAPairWithNearestSum** | Checks for exact target sum pair; falls back to finding the nearest pair and delta. | $O(n \log n)$ | $O(1)$ |
 
+### Lesson 4: Bubble Sort (`Lesson_04_Bubble_Sort/`)
+
+| File / Link | Activity Title | Description | Time Complexity | Space Complexity |
+| :--- | :--- | :--- | :--- | :--- |
+| `01_bubble_sort_working.py` / `bubble_sort_working.py` | **Activity 1: BubbleSortWorking** | In-depth trace of adjacent comparisons, swaps, and bubbling passes. | $O(n^2)$ | $O(1)$ |
+
 ---
 
 ## How to Run
@@ -98,4 +107,9 @@ python Lesson_03_Two_Pointers_and_Pairs/01_pair_naive.py
 python Lesson_03_Two_Pointers_and_Pairs/02_pair_two_pointers.py
 python Lesson_03_Two_Pointers_and_Pairs/03_closest_pair_sum.py
 python Lesson_03_Two_Pointers_and_Pairs/is_there_a_pair_with_nearest_sum.py
+```
+
+### Lesson 4: Bubble Sort
+```bash
+python Lesson_04_Bubble_Sort/01_bubble_sort_working.py
 ```
