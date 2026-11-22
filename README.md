@@ -43,6 +43,9 @@ Searching-and-Sorting/
 │   ├── optimized_bubble_sort.py
 │   ├── sort_with_bubble.py
 │   └── acp_sort_with_bubble.py
+├── Lesson_05_Selection_Sort/
+│   ├── 01_selection_sort_working.py
+│   └── selection_sort_working.py
 └── README.md
 ```
 
@@ -88,6 +91,12 @@ Searching-and-Sorting/
 | `02_optimized_bubble_sort.py` / `optimized_bubble_sort.py` | **Activity 2: OptimizedBubbleSort** | Swapped boolean flag optimization exiting early for $O(n)$ best case. | $O(n)$ best, $O(n^2)$ worst | $O(1)$ |
 | `sort_with_bubble.py` / `acp_sort_with_bubble.py` | **ACP: SortWithBubble** | Multi-directional (asc/desc) sorting on real-world datasets with metrics. | $O(n^2)$ | $O(1)$ |
 
+### Lesson 5: Selection Sort (`Lesson_05_Selection_Sort/`)
+
+| File / Link | Activity Title | Description | Time Complexity | Space Complexity |
+| :--- | :--- | :--- | :--- | :--- |
+| `01_selection_sort_working.py` / `selection_sort_working.py` | **Activity 1: SelectionSortWorking** | In-depth trace of minimum finding in unsorted partition and $O(n)$ swaps. | $O(n^2)$ | $O(1)$ |
+
 ---
 
 ## How to Run
@@ -120,4 +129,9 @@ python Lesson_03_Two_Pointers_and_Pairs/is_there_a_pair_with_nearest_sum.py
 python Lesson_04_Bubble_Sort/01_bubble_sort_working.py
 python Lesson_04_Bubble_Sort/02_optimized_bubble_sort.py
 python Lesson_04_Bubble_Sort/sort_with_bubble.py
+```
+
+### Lesson 5: Selection Sort
+```bash
+python Lesson_05_Selection_Sort/01_selection_sort_working.py
 ```
