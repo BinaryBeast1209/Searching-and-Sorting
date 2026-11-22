@@ -48,6 +48,10 @@ Searching-and-Sorting/
 │   ├── selection_sort_working.py
 │   ├── 02_largest_number.py
 │   └── largest_number.py
+├── Lesson_06_Sorting_Applications/
+│   ├── 01_sort_list_by_frequency_and_index.py
+│   ├── sort_list_by_frequency_and_index.py
+│   └── sort_by_frequency_and_index.py
 └── README.md
 ```
 
@@ -100,6 +104,12 @@ Searching-and-Sorting/
 | `01_selection_sort_working.py` / `selection_sort_working.py` | **Activity 1: SelectionSortWorking** | In-depth trace of minimum finding in unsorted partition and $O(n)$ swaps. | $O(n^2)$ | $O(1)$ |
 | `02_largest_number.py` / `largest_number.py` | **Activity 2: LargestNumber** | Finds largest element and forms largest concatenated number via custom comparator. | $O(n^2)$ | $O(n)$ |
 
+### Lesson 6: Sorting Applications (`Lesson_06_Sorting_Applications/`)
+
+| File / Link | Activity Title | Description | Time Complexity | Space Complexity |
+| :--- | :--- | :--- | :--- | :--- |
+| `01_sort_list_by_frequency_and_index.py` / `sort_list_by_frequency_and_index.py` | **Activity 1: SortListByFrequency&Index** | Multi-level key sorting by descending frequency and ascending first index. | $O(n \log n)$ | $O(n)$ |
+
 ---
 
 ## How to Run
@@ -138,4 +148,9 @@ python Lesson_04_Bubble_Sort/sort_with_bubble.py
 ```bash
 python Lesson_05_Selection_Sort/01_selection_sort_working.py
 python Lesson_05_Selection_Sort/02_largest_number.py
+```
+
+### Lesson 6: Sorting Applications
+```bash
+python Lesson_06_Sorting_Applications/01_sort_list_by_frequency_and_index.py
 ```
