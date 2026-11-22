@@ -33,7 +33,9 @@ Searching-and-Sorting/
 │   ├── 02_pair_two_pointers.py
 │   ├── pair_of_items_using_two_pointers.py
 │   ├── 03_closest_pair_sum.py
-│   └── closest_pair_sum.py
+│   ├── closest_pair_sum.py
+│   ├── is_there_a_pair_with_nearest_sum.py
+│   └── acp_is_there_a_pair_with_nearest_sum.py
 └── README.md
 ```
 
@@ -69,6 +71,7 @@ Searching-and-Sorting/
 | `01_pair_naive.py` / `pair_of_items_using_naive_approach.py` | **Activity 1: PairOfItemsUsingNaiveApproach** | Checks all $\frac{n(n-1)}{2}$ pairs using nested loops to find sum matching target. | $O(n^2)$ | $O(1)$ |
 | `02_pair_two_pointers.py` / `pair_of_items_using_two_pointers.py` | **Activity 2: PairOfItemsUsingTwoPointers** | Inward two-pointer technique on sorted array to find pair in a single pass. | $O(n)$ | $O(1)$ |
 | `03_closest_pair_sum.py` / `closest_pair_sum.py` | **Activity 3: ClosestPairSum** | Finds the pair $(a, b)$ whose sum is mathematically closest to the target. | $O(n \log n)$ | $O(1)$ |
+| `is_there_a_pair_with_nearest_sum.py` / `acp_is_there_a_pair_with_nearest_sum.py` | **ACP: IsThereAPairWithNearestSum** | Checks for exact target sum pair; falls back to finding the nearest pair and delta. | $O(n \log n)$ | $O(1)$ |
 
 ---
 
@@ -94,4 +97,5 @@ python Lesson_02_Binary_Search/find_my_element.py
 python Lesson_03_Two_Pointers_and_Pairs/01_pair_naive.py
 python Lesson_03_Two_Pointers_and_Pairs/02_pair_two_pointers.py
 python Lesson_03_Two_Pointers_and_Pairs/03_closest_pair_sum.py
+python Lesson_03_Two_Pointers_and_Pairs/is_there_a_pair_with_nearest_sum.py
 ```
