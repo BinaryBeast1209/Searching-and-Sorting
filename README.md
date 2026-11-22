@@ -51,7 +51,9 @@ Searching-and-Sorting/
 ├── Lesson_06_Sorting_Applications/
 │   ├── 01_sort_list_by_frequency_and_index.py
 │   ├── sort_list_by_frequency_and_index.py
-│   └── sort_by_frequency_and_index.py
+│   ├── sort_by_frequency_and_index.py
+│   ├── 02_sort_in_one_swap.py
+│   └── sort_in_one_swap.py
 └── README.md
 ```
 
@@ -109,6 +111,7 @@ Searching-and-Sorting/
 | File / Link | Activity Title | Description | Time Complexity | Space Complexity |
 | :--- | :--- | :--- | :--- | :--- |
 | `01_sort_list_by_frequency_and_index.py` / `sort_list_by_frequency_and_index.py` | **Activity 1: SortListByFrequency&Index** | Multi-level key sorting by descending frequency and ascending first index. | $O(n \log n)$ | $O(n)$ |
+| `02_sort_in_one_swap.py` / `sort_in_one_swap.py` | **Activity 2: SortInOneSwap** | Single-pass inversion detection verifying if array can be sorted in 1 swap. | $O(n)$ | $O(1)$ |
 
 ---
 
@@ -153,4 +156,5 @@ python Lesson_05_Selection_Sort/02_largest_number.py
 ### Lesson 6: Sorting Applications
 ```bash
 python Lesson_06_Sorting_Applications/01_sort_list_by_frequency_and_index.py
+python Lesson_06_Sorting_Applications/02_sort_in_one_swap.py
 ```
