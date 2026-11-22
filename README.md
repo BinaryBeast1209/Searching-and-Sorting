@@ -38,7 +38,9 @@ Searching-and-Sorting/
 │   └── acp_is_there_a_pair_with_nearest_sum.py
 ├── Lesson_04_Bubble_Sort/
 │   ├── 01_bubble_sort_working.py
-│   └── bubble_sort_working.py
+│   ├── bubble_sort_working.py
+│   ├── 02_optimized_bubble_sort.py
+│   └── optimized_bubble_sort.py
 └── README.md
 ```
 
@@ -81,6 +83,7 @@ Searching-and-Sorting/
 | File / Link | Activity Title | Description | Time Complexity | Space Complexity |
 | :--- | :--- | :--- | :--- | :--- |
 | `01_bubble_sort_working.py` / `bubble_sort_working.py` | **Activity 1: BubbleSortWorking** | In-depth trace of adjacent comparisons, swaps, and bubbling passes. | $O(n^2)$ | $O(1)$ |
+| `02_optimized_bubble_sort.py` / `optimized_bubble_sort.py` | **Activity 2: OptimizedBubbleSort** | Swapped boolean flag optimization exiting early for $O(n)$ best case. | $O(n)$ best, $O(n^2)$ worst | $O(1)$ |
 
 ---
 
@@ -112,4 +115,5 @@ python Lesson_03_Two_Pointers_and_Pairs/is_there_a_pair_with_nearest_sum.py
 ### Lesson 4: Bubble Sort
 ```bash
 python Lesson_04_Bubble_Sort/01_bubble_sort_working.py
+python Lesson_04_Bubble_Sort/02_optimized_bubble_sort.py
 ```
